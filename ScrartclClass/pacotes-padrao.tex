@@ -1,0 +1,30 @@
+%Preâmbulo
+\usepackage[brazil]{babel}%Idioma
+\usepackage[utf8]{inputenc}%Inserir acentos 
+\usepackage[T1]{fontenc}%Tipo de fonte usada na compilação
+\usepackage[osf]{Alegreya,AlegreyaSans}%Fontes Alegreya
+\usepackage{microtype}%Microtipografia
+\usepackage{hyphenat}%Habilita/desabilita hifenização
+\usepackage{soul}%Facilidades para manipualar formatação de FONTES
+\usepackage{calc}%Medir margens do pacote Geometry
+\usepackage[a4paper,left=2.0cm, right=2.0cm, top=2.0cm, bottom=2.0cm]{geometry}
+\usepackage{graphicx}%inserir imagens
+\usepackage[x11names]{xcolor}%Texto colorido
+\usepackage{pdfpages}%Inserir páginas PDF
+\usepackage{tcolorbox}%Caixa de texto >>>> Ver abaixo
+\tcbuselibrary{skins}% Obrigatório para formatação específica da tcolorbox
+\usepackage{multicol}%Criar multicolunas sem \tabular
+\usepackage{url}%Para disponibilizar o endereço do site
+\usepackage[hidelinks]{hyperref}%Remover caixa vermelha no TOC
+\usepackage{lipsum}%para gerar lipsum
+\usepackage{alltt}%Para escrever versos sem precisar indicar “\\”
+\usepackage{verbatim}%Citar códigos Latex
+\usepackage{smartdiagram}%Diagramas
+\usepackage{tikz}%Desenhos impossíveis
+\usepackage{tabularx}%Tabelas mais fáceis
+\usepackage{setspace}%Mudar espaçamento entre linhas
+%Para citações longas
+\renewenvironment{quote}
+{\small\list{}{\rightmargin=0cm \leftmargin=4cm}%
+	\item\relax}
+{\endlist}
