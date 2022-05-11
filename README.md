@@ -1,2 +1,2 @@
-# latextemplates
-Modelos Latex
+# Latex Templates
+## Modelos Latex
